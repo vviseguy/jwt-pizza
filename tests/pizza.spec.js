@@ -514,8 +514,8 @@ test("admin page", async ({ page }) => {
   await login(page);
   
 
-await expect(page.getByRole('heading')).toContainText('The web\'s best pizza');
 
+await page.goto("http://localhost:5173/admin-dashboard");
   await expect(page.getByRole("heading")).toContainText("Mama Ricci's kitchen");
   
   await page
