@@ -1,5 +1,5 @@
 # Curiosity Report
-###### Jacob Wise
+Jacob Wise
 A deep dive into serverless architechure and where to go from here.
 
 ### A note:
